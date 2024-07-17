@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, serif;
+    font-size: 16px;
+}
+
+:root{
+    --primary: #0295C3;
+    --secondary: #FFBE4D;
+}
+
+.hero{
+    background-color: #0295C3;
+    height: 100vh;
+
+}
+
+.header{
+    height: 5em;
+    white-space: nowrap;
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.logo{
+    display: inline-block;
+    margin-top: 1em;
+    position: absolute;
+    left: 3em;
+    
+}
+
+.logo a{
+    font-size: 2rem;
+    color: var(--secondary);
+    text-decoration: none;
+
+}
+
+
+.hamburger{
+    display: inline-block;
+    margin-top: 1em;
+    position: absolute;
+    right: 3em;
+    color: var(--secondary);
+}
+
